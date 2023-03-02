@@ -30,7 +30,7 @@ html {
 }
 
 main {
-    @media only screen and (max-width: 700px) {
+    @media only screen and (max-width: 900px) {
         width: 85vw;
     }
     @include flex;
@@ -43,7 +43,7 @@ main {
 }
 
 h3 {
-    @media only screen and (max-width: 700px) {
+    @media only screen and (max-width: 900px) {
         margin-top: 10vw;
     }
     @include font;
@@ -124,8 +124,11 @@ hr {
 }
 
 footer {
-    @media only screen and (max-width: 700px) {
+    @media only screen and (max-width: 900px) {
         font-size: 12px;
+    }
+    @media only screen and (max-width: 300px) {
+        font-size: 8px;
     }
     @include font;
     @include ls(0.1vw);
